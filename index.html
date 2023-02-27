@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta name="author" content="Sophia Fong">
+        <meta name="description" content="My Personal Website">
+        <title>Sophia Fong's Website</title>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+    
+
+        <div id="toc" class="tabcontent" >
+            <a class="indtab" href="index.html">Home</a>
+            <a class="indtab" href="aboutme.html">About Me</a>
+            <a class="indtab" href="work.html">Work</a>
+            <a class="indtab" href="contactme.html">Contact</a>
+      </div>
+      
+
+      <div class="top of page">
+        <div class="header">
+          <h1>Sophia Fong</h1>
+      </div>
+      
+
+         <div id="picture">
+              <img src="me.png" alt="a picture of me" height="250" width="200"/>
+            </div>
+
+            <h2>My favorite fruits ranked</h2>
+            <ul>
+                <li><h3>apple</h3></li>
+                <li><h4>mango</h4></li>
+                <li><h5>pear</h5></li>
+                <li><h6>strawberry</h6></li>
+            </ul>
+
+    
+          
+  
+        <button class="buttons" onclick="alert('My favorite animal is a capybara!')">Click here for a fun fact about me!</button>
+        <br> 
+        <br>
+    
+    </div>
+  
+  
+    <div class="random">Any Questions?</p></div>
+
+   <script> const para = document.querySelector('.random');
+
+    para.addEventListener('click', askaq);
+    
+    function askaq() {
+      const name = prompt('What is on your mind?');
+      para.textContent = "Any Questions?";
+    }</script>
+
+    </body>
+</html>
